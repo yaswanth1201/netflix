@@ -1,0 +1,211 @@
+/* login */
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-image:url(images/netflix-octobre-contenus-2022.jpg);
+}
+.loginmain{
+
+  background-color: rgba(0, 0, 0, 0.8); 
+  color: white;
+  width: 400px;
+  height: 550px;
+  border-radius: 20px;
+  border-color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  
+}
+.username{
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 320px;
+  padding: 10px;
+  border-radius: 5px; 
+  border-color: whitesmoke;
+  color: white;
+}
+.loginmain-1 button{
+  width: 320px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+}
+.text{
+  color: white;
+}
+
+/* signup */
+.signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image:url(images/netflix-background-gs7hjuwvv2g0e9fj.jpg);
+  position: relative;
+  
+}
+.signupmain{
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  
+ 
+}
+.para{
+  font-weight: 900;
+  font-size: 50px;
+}
+.username1{
+background-color: rgba(0, 0, 0, 0.7);
+font-size: 20px;
+  font-weight: 200;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 320px;
+  padding: 10px;
+  border-radius: 5px; 
+  color: white;
+}
+.signupmain-1{
+  color: white;
+}
+.signupmain-1 button{
+  width: 320px;
+  padding: 15px;
+  margin-top: 15px;
+  background-color: red;
+  color: white;
+  font-size: larger;
+}
+.bubble{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: red;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  color: white;
+  padding: 5px;
+  width: 70px;
+  border-radius: 5px;
+  }
+
+
+  
+  .logo1{
+      margin:4%;
+      margin-top:5%;
+      
+  }
+  .sbutton{
+    background-color:transparent; 
+    border: transparent;
+    color: white;
+  }
+  /* .logo{
+    height: 100vh;
+  } */
+  /* content */
+  .pbutton{
+  border-radius: 30px;
+  background-color: red;
+  border: 2px solid black;
+  margin-right: 30px;
+  width: 90px;
+  padding: 8px;
+  color: white;
+  }
+  .tbutton{
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid black;
+   width: 120px;
+   padding: 8px;
+    color: black;
+  }
+  .n{
+    color: rgb(201, 25, 25);
+    font-weight:900;
+    font-size: xx-large;
+  }
+  .static{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .matter{
+    background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+    margin-top: 15%;
+    width: 100%;
+  }
+  .moneyheist{
+    width:100%;
+  }
+  .part{
+    display: flex;
+    justify-content: space-around;
+  }
+  .imdb{
+    background-color: rgb(201, 201, 27);
+    color: black;
+    font-weight: 700;
+    font-size: small;
+  }
+  .mheist{
+    font-weight: 900;
+    font-size: 40px;
+  
+  }
+  .heist{
+    background-color: rgba(209, 13, 13, 0.767);
+    color: black;
+  }
+  .moneyheist img{
+    width: 100%;  
+  }
+  .movies1{
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;  
+  }
+  .movies2{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+    
+  }
+  .cinema :hover{
+    transform: scale(0.9);
+  }
+  .web1{
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+  }
+  .web2{
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+  }
+
+ 
+  
+  
+  
+
+
+
