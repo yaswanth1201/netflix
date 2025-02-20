@@ -7,12 +7,12 @@ function Dashboard() {
   return (
     <div className="container-fluid dash" style={{backgroundColor:'black'}}>
 
-       <div className=' sidenav'>
+       <div className=' sidenav'style={{height:'100vh'}}>
        <Row>
-       <Col md={2} >
+       <Col md={2}>
       <Sidenav/>
       </Col>
-            <Col md={10}>
+            <Col md={10} style={{overflowX:'hidden',height:'100vh'}}>
             <Content/>
             </Col>
             

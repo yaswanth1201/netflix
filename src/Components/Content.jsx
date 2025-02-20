@@ -44,7 +44,8 @@ function Content() {
                   return(
                       <div>
                           {/* <p>{e.Id}</p> */}
-                          <img src={e.Image} alt="" style={{width:'250px', height:'300px'}}/>
+                          <Link className='cinema' to={`/movies/${e.Id}`}>
+                          <img src={e.Image} alt="" style={{width:'250px', height:'300px'}}/></Link>
                           <p>{e.Name}</p>
                       
                       </div>
@@ -53,20 +54,21 @@ function Content() {
             }
           
           </div>
-          <Link to='/movies'><button>viewall</button></Link>
+          <Link to='/movies'><button className=' bg-dark text-white' style={{textDecoration:'none'}}>viewall</button></Link>
           <h1 className='rweda'style={{fontsize:'15px',fontWeight:'900',color:'white'}}>Popular Webseries</h1>
         <div className='web1'>
           {
              Wdata1.map((x)=>{
                    return(
                       <div>
-                          <img src={x.Image} alt="" style={{width:'250px',height:'300px',borderRadius:'7px'}}/> 
+                          <Link className='cinema' to={`/webseries/${x.Id}`}>
+                          <img src={x.Image} alt="" style={{width:'250px',height:'300px',borderRadius:'7px'}}/></Link>
                       </div> 
                   )   
               })
             }
             </div>  
-            <Link to='/webseries'><button>viewall</button></Link>
+            <Link to='/webseries'><button className=' bg-dark text-white' style={{textDecoration:'none'}}>viewall</button></Link>
     </div>
 
   )

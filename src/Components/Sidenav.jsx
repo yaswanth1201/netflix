@@ -5,7 +5,7 @@ import Nimg from './Assets/121.png'
 function Sidenav() {
   return (
   
-            <div className=' container-fluid logo'>
+            <div className=' container-fluid logo'style={{height:'100vh'}}>
                 {/* <h1 className='netflix my-3'>NETFLIX</h1> */}
                 <img src={Nimg} alt=""  style={{ width:'100%',marginTop:'4%'}} />
                 
